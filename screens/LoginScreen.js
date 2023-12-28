@@ -7,7 +7,7 @@ import { useNavigation } from '@react-navigation/native';
 const LoginScreen = () => {
 
     const navigation = useNavigation();
-    
+
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
 
@@ -15,7 +15,6 @@ const LoginScreen = () => {
         criar(email, password)
             .then((userCredentials) => {
                 const user = userCredentials.user;
-                console.log(user.email);
             })
             .catch((error) => alert(error.message));
     };
@@ -24,7 +23,6 @@ const LoginScreen = () => {
         logar(email, password)
             .then((userCredentials) => {
                 const user = userCredentials.user;
-                console.log(user.email);
                 navigation.navigate('Home');
             })
             .catch((error) => alert(error.message));
