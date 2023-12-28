@@ -1,6 +1,6 @@
 # Projeto de Autenticação com Firebase
 
-Este projeto implementa um sistema de autenticação utilizando o Firebase para login e registro de usuários. Ele é construído com React Native e utiliza o pacote `@react-navigation/native` para navegação entre telas.
+Este projeto implementa um sistema de autenticação utilizando o Firebase para login e registro de usuários. 
 
 ## Estrutura do Projeto
 
